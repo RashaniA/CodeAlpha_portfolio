@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <div id="header">
+
+            <div class="container"></div>
+            <nav>
+                <img src = "images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>HI, I'm <span>Rashani</span> Adikari</h1>
+            </div>
+            
+        </div>
+
+
+       
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/photo.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a 3rd-year student at SLIIT, currently pursuing a degree in the Faculty of Computing. My passion lies at the intersection of technology, design, and creativity. I specialize in coding, UX/UI design, and web designing, where I enjoy turning ideas into visually appealing and user-friendly digital experiences. My goal is to create websites that are not only functional but also aesthetically pleasing, ensuring that users have an intuitive and engaging experience. As I continue to develop my skills in these areas, I am eager to take on new challenges and contribute to innovative projects that push the boundaries of web design and development.</p>
+                   
+
+
+                        <div class="tab-title">
+                            <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="links" onclick="opentab('education')">Education</p>
+                            
+                        </div>
+
+                        <div class="contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing front-end Development</li>
+                                <li><span>Full-stack Web Development</span><br>front-end and Backend Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                                
+                            </ul>
+                        </div>
+
+
+                        <div class="contents" id="education">
+                            <ul>
+                                <li><span>2022 - current</span><br>Currently pursuing BSc. Degree specialization in Information Technology at SLIIT</li>
+                                <li><span>2021</span><br>G.C.E. Advanced Level(Physical Science stream)</li>
+                                <li><span>2013-2018</span><br>Studies at Walisingha Harischandra College/Anuradapura</li>
+                                
+                            </ul>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="service-list">
+
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Full-stack Web Development</h2>
+                    <p>front-end and Backend Development</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing front-end Development</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Building Android/IOS Apps</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+<div id="portfolio"></div>
+<div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work1.png">
+            <div class="layer">
+                <h3>Online Laundry Service Management System</h3>
+                <p>An online laundry system lets customers book laundry services like washing and ironing, schedule pickups and deliveries, and pay online, all through a website.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/work2.jpg">
+            <div class="layer">
+            <h3>Lightning And Functional Service Management System</h3>
+            <p>A Lightning and Functional Service Management System is a digital platform that streamlines and automates IT service management, all within a user-friendly interface.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/work3.jpg">
+            <div class="layer">
+                <h3>Task Management App</h3>
+                <p>A Task Management App helps users organize, track, and complete tasks efficiently by allowing them to create, prioritize, and set deadlines for tasks, all in one place.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+ </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> rashanimalshikajm@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://x.com/Rae_ParkMimi"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/rae_min13"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/RashaniA"><i class="fab fa-github"></i></a>
+                    <a href="www.linkedin.com/in/rashani-adikari-6044a72a1"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+            </br>
+                <a href="images/Rashani Adikari.pdf" download class="btn btn2">Download CV</a>
+        
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Mesaage"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>copyright © Rashani.</p>
+
+</div>
+</div>
+
+
+        
+
+<script>
+
+    var links = document.getElementsByClassName("links");
+    var contents = document.getElementsByClassName("contents");
+
+    function opentab(tabname){
+        for(link of links){
+            link.classList.remove("active-link");
+
+        }
+
+        for(content of contents){
+            content.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+    </body>
+
+</html>
